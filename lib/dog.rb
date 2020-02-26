@@ -19,5 +19,5 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-expect(Dog.class_variable_get(:@@all)).to match([])
+
 end
